@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Сергей Рычков](https://up.htmlacademy.ru/htmlcss/30/user/1461001).
-* Наставник: [Илья Приходкин] (https://htmlacademy.ru/profile/id684581).
+* Наставник: [Илья Приходкин](https://htmlacademy.ru/profile/id684581).
 
 ---
 
