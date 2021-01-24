@@ -13,10 +13,9 @@
         <ul>
           <li><a href="blank.html">Студия</a></li>
           <li><a href="blank.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
+          <li><a>Магазин</a></li>
           <li><a href="blank.html">Контакты</a></li>          
         </ul>
-        <img src="https://via.placeholder.com/15x15" width="15" height="15" alt="корзина">
         <a href="Blank.html">Корзина</a>
       </nav>
     </header>
@@ -24,10 +23,13 @@
     <main>
       <h1>Магазин готовых шаблонов</h1>      
         <section>
-          <h2>Фильтр товаров</h2>
+          <h2>Фильтр шаблонов</h2>
           <form method="get" action="https://echo.htmlacademy.ru">
             <fieldset>
-              <legend>Стоимость:</legend>              
+              <legend>Стоимость:</legend>
+
+                <!-- непонятно, как делать слайдер -->    
+
                 <label for="price-from">От</label>
                 <input id="price-from" type="number" name="from" placeholder="0">
 
@@ -87,6 +89,157 @@
             <button type="submit">Показать</button>
           </form>
         </section>
+
+        <section>
+          <h2>Сортировщик шаблонов</h2>
+
+          <fieldset>
+            <legend>Сортировать:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="sort" id="sort-price" checked>
+                <label for="sort-price"><span>По цене</span></label>                
+              </li>
+
+              <li>
+                <input type="radio" name="sort" id="sort-type">
+                <label for="sort-type"><span>По типу</span></label>                
+              </li>  
+
+              <li>
+                <input type="radio" name="sort" id="sort-name">
+                <label for="sort-name"><span>По названию</span></label>                
+              </li>  
+            </ul>
+
+            <ul>
+              <li>                
+                <button type="button">                  
+                  <span>Сначало дороже</span>
+                </button>                
+              </li>
+
+              <li>
+                <button type="button">               
+                  <span>Сначала дешевле</span>
+                </button>
+              </li>              
+            </ul>
+          </fieldset>
+        </section>
+
+        <section>
+          <h2>Каталог шаблонов</h2>
+          <ol>
+            <li>              
+              <h3>Шаблон Седона</h3>                
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="360" height="40" alt="слайдер шаблона Седона">
+              </p>                                    
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="шаблон Седона">
+              </p>
+              <!-- При наведении появляется рамка с описанием и кнопкой с ценой-->
+              <p>Sedona</p>
+              <p>Информационный сайт<br>
+                для туристов</p>
+              <button type="button">9 900 &#8381</button>                        
+            </li>
+
+            <li>              
+              <h3>Шаблон Пинк Апп</h3>                
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="360" height="40" alt="слайдер шаблона Пинк Апп">
+              </p>                                    
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="шаблон Пинк Апп">
+              </p>
+              <!-- При наведении появляется рамка с описанием и кнопкой с ценой-->
+              <p>Pink App</p>
+              <p>Продуктовый лендинг<br>
+                приложения для iOS и Android</p>
+              <button type="button">9 900 &#8381</button>                        
+            </li>
+
+            <li>              
+              <h3>Шаблон Барбершоп</h3>                
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="360" height="40" alt="слайдер шаблона Барбершоп">
+              </p>                                    
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="шаблон Барбершоп">
+              </p>
+              <!-- При наведении появляется рамка с описанием и кнопкой с ценой-->
+              <p>Barbershop</p>
+              <p>Сайт салона красоты.<br>
+                Для мужчин, да.</p>
+              <button type="button">9 900 &#8381</button>                        
+            </li>
+
+            <li>              
+              <h3>Шаблон Мишка</h3>                
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="360" height="40" alt="слайдер шаблона Мишка">
+              </p>                                    
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="шаблон Мишка">
+              </p>
+              <!-- При наведении появляется рамка с описанием и кнопкой с ценой-->
+              <p>Mishka</p>
+              <p>Интернет-магазин<br>
+                вязаных игрушек</p>
+              <button type="button">9 900 &#8381</button>                         
+            </li>
+
+            <li>              
+              <h3>Шаблон А Плюс</h3>                
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="360" height="40" alt="слайдер шаблона А Плюс">
+              </p>                                    
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="шаблон А Плюс">
+              </p>
+              <!-- При наведении появляется рамка с описанием и кнопкой с ценой-->
+              <p>A plus</p>
+              <p>Лендинг курсов повышения<br>
+                квалификации</p>
+              <button type="button">9 900 &#8381</button>                         
+            </li>
+
+            <li>              
+              <h3>Шаблон Кваст</h3>                
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="360" height="40" alt="слайдер шаблона Кваст">
+              </p>                                    
+              <p>
+                <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="шаблон Кваст">
+              </p>
+              <!-- При наведении появляется рамка с описанием и кнопкой с ценой-->
+              <p>Кваст</p>
+              <p>Промо-сайт производителя<br>
+                крафтового кваса</p>
+              <button type="button">9 900 &#8381</button>                         
+            </li>
+          </ol>
+
+          <ul>
+            <li>
+              <a href="">Предыдущая</a>
+            </li>
+            <li>
+              <a>1</a>
+            </li>
+            <li>
+              <a href="">2</a>
+            </li>
+            <li>
+              <a href="">3</a>
+            </li>
+            <li>
+              <a href="">Следующая</a>
+            </li>
+          </ul>
+        </section>
       
     </main>
 
@@ -97,7 +250,7 @@
         <p>191186, Санкт-Петербург,<br>
           ул. Б. Конюшенная, д. 19/8</p>
         <p>тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-        <button type="button">Напишите нам</button>
+        <a href="">Напишите нам</a>
       </section>
       
       <section>
@@ -112,16 +265,13 @@
           <p>Скидка 10% для друзей из социальных сетей</p>
         <ul>
           <li>
-            <a href=""><img src="https://via.placeholder.com/26.01x15" width="26"
-              height="15" alt="иконка вконтакте"></a> ВК <!-- написал название для видимости -->
+            <a href=""><span>ВК</span></a>  <!-- написал название для видимости -->
           </li>
           <li>
-            <a href=""><img src="https://via.placeholder.com/12x12" width="12"
-              height="22" alt="иконка фейсбука"></a> ФБ
+            <a href=""><span>ФБ</span></a> 
           </li>
           <li>
-            <a href=""><img src="https://via.placeholder.com/21x21" width="21"
-              height="21" alt="иконка инстаграм"></a> ИГ
+            <a href=""><span>ИГ</span></a> 
           </li>
         </ul>
       </section>
