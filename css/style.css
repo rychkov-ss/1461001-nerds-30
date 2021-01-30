@@ -74,6 +74,10 @@ img {
 .site-navigation-current a:not([href]) {
   background-color: var(--basic-black);
 }
+
+.main-navigation-logo:focus {
+    background-color: #A6A6A6;
+}
   
 /* User navigation */
 
@@ -146,8 +150,8 @@ img {
 }
 
 .button:focus {
-    opacity: 30%;
-    background-color: var(--push-red); 
+  background-color: var(--push-red);
+  color: rgba(256, 256, 256, 0.3);
 }
 
 .button-red {
@@ -169,7 +173,7 @@ img {
   
 .button-green:focus {
   background-color: var(--push-green);
-  opacity: 30%;
+  color: rgba(256, 256, 256, 0.3);
 }
 
 .button-yellow {
@@ -183,7 +187,7 @@ img {
 
 .button-yellow:focus {
   background-color: var(--push-yellow);
-  opacity: 30%;
+  color: rgba(256, 256, 256, 0.3);
 }
 
 /* About */
