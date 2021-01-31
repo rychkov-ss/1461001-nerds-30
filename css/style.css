@@ -119,10 +119,6 @@ img {
   list-style: none;
 }
     
-.specialization-item {
-  
-}
-
 .specialization-header {
   font-size: 24px;
   line-height: 30px;
@@ -205,16 +201,12 @@ img {
   text-transform: uppercase;
 }
 
-.about-list-1,
-.about-list-2 {
+.about-order-list,
+.about-list {
   list-style: none;  
 }
 
-.about-item-1 {
-  
-}
-
-.about-item-2 {
+.about-item {
   line-height: 18px;
 }
 
